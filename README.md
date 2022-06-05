@@ -1,4 +1,4 @@
-# lilgit
+# lil' git
 
 An baby implementation of `git`, from scratch.
 

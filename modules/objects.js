@@ -1,0 +1,16 @@
+const objects = (module.exports = {
+  fileTree: function () {},
+  writeTree: function () {},
+  writeCommit: function () {},
+  write: function () {},
+  isUpToDate: function () {},
+  exists: function () {},
+  read: function () {},
+  allObjects: function () {},
+  type: function () {},
+  isAncestor: function () {},
+  ancestors: function () {},
+  parentHashes: function () {},
+  treeHash: function () {},
+  commitToc: function () {},
+});
