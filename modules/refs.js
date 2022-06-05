@@ -1,0 +1,16 @@
+const refs = (module.exports = {
+  hash: function (ref) {},
+  isRef: function (ref) {},
+  terminalRef: function (ref) {},
+  isHeadDetached: function () {},
+  isCheckedOut: function () {},
+  toLocalRef: function () {},
+  toRemoteRef: function () {},
+  write: function () {},
+  rm: function () {},
+  fetchHeadBranchToMerge: function () {},
+  localHeads: function () {},
+  exists: function () {},
+  headBranchName: function () {},
+  commitParentHashes: function () {},
+});

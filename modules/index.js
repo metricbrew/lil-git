@@ -1,0 +1,17 @@
+const index = (module.exports = {
+  hasFile: function () {},
+  read: function () {},
+  key: function () {},
+  keyPieces: function () {},
+  toc: function () {},
+  isFileInConflict: function () {},
+  conflictedPaths: function () {},
+  _writeStageEntry: function () {},
+  writeNonConflict: function () {},
+  writeConflict: function () {},
+  writeRm: function () {},
+  write: function () {},
+  workingCopyToc: function () {},
+  tocToIndex: function () {},
+  matchingFiles: function () {},
+});
