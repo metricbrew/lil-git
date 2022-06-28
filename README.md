@@ -2,7 +2,7 @@
 
 # lil' git
 
-An baby implementation of `git`, from scratch.
+A baby implementation of `git`, from scratch.
 
 ---
 
