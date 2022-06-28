@@ -1,3 +1,5 @@
+![babygit](https://user-images.githubusercontent.com/15032956/176189152-b5795c60-61dc-4a30-a9bc-96b145d80324.jpg)
+
 # lil' git
 
 An baby implementation of `git`, from scratch.
