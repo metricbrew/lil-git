@@ -1,0 +1,8 @@
+{
+  "setupTasks": [
+    {
+      "name": "Install Python",
+      "command": "nix-env -iA nixpkgs.python38Full"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { Lilgit } from "./modules/t";
+import type { LilGit } from "./modules/t";
 
 console.log("lil' git (version 0.0.1)");
 
-const lilgit: Lilgit = {
+const lilgit: LilGit = {
   init: function (opts) {},
   add: function (opts) {},
   rm: function (opts) {},
@@ -23,8 +23,6 @@ const lilgit: Lilgit = {
   update_index: function (opts) {},
   write_tree: function (opts) {},
   // Not implemented in tutorial but which I want to implement:
-  // squash
+  // squash (to one commit perhaps)
   // ...
 };
-
-module.exports = lilgit;
