@@ -2,7 +2,7 @@ export type Opts = {
   base: boolean | undefined;
 };
 
-export type Lilgit = {
+export type LilGit = {
   init: (opts: Opts) => void;
   add: (opts: Opts) => void;
   rm: (opts: Opts) => void;
