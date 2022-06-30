@@ -1,8 +1,8 @@
 {
   "scripts": {
     "compile": "npx swc lilgit.ts -d dist && mv dist/lilgit.js dist/lilgit.mjs",
-    "start": "npm run compile && echo \"----\n\" && node ./dist/lilgit.mjs",
-    "build": "npm run compile && nexe --build -i dist/lilgit.mjs -o dist/lilgit",
+    "start": "npm run compile && echo \"----\n\" && node ./dist/lilgit.mjs && rm dist/lilgit.mjs",
+    "build": "npm run compile && nexe -t linux-x64-14.15.2 -i dist/lilgit.mjs -o dist/lilgit && rm dist/lilgit.mjs",
     "nexe-help": "nexe -h"
   },
   "devDependencies": {
